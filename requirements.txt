@@ -1,3 +1,9 @@
 jupyterlab
 nbclient
 pyspark
+sqlalchemy
+pandas
+pyarrow
+pymysql
+pandera
+cryptography
