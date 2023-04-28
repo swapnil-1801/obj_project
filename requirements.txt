@@ -7,3 +7,4 @@ pyarrow
 pymysql
 pandera
 cryptography
+mysql
