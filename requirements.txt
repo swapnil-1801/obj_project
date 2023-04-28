@@ -8,3 +8,4 @@ pymysql
 pandera
 cryptography
 mysql
+mysql.connector
