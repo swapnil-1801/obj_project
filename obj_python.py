@@ -1,4 +1,3 @@
-!pip install pyspark
 import logging
 from datetime import datetime
 import sqlalchemy
@@ -16,7 +15,6 @@ from pandera import Column, Check
 from pandera import check_input
 from pandera.errors import SchemaError
 
-!pip install -q findspark
 import findspark
 findspark.init()
 
