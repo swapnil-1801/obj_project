@@ -9,3 +9,4 @@ pandera
 cryptography
 mysql
 mysql.connector
+findspark
