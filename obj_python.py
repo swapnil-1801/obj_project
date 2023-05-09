@@ -7,6 +7,9 @@ import pyarrow.parquet as pq
 import pymysql
 import mysql.connector
 from pyspark.sql.functions import udf, lit, col
+from pyspark.sql.window import Window
+from pyspark.sql.functions import row_number, rank, dense_rank
+from pyspark.sql.functions import month, year
 from cryptography.fernet import Fernet
 from pyspark.sql.functions import udf
 from pyspark.sql.types import StringType
