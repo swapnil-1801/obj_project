@@ -39,12 +39,12 @@ def obj_2(spark):
     parquet_df = pq.ParquetDataset('dataset/location_'+current_time+'/').read_pandas().to_pandas()
     
     # df --> MySQL table : No need to create schema in MySQL
-    engine = create_engine("mysql+pymysql://{user}:{pw}@localhost/{db}"
+    '''engine = create_engine("mysql+pymysql://{user}:{pw}@localhost/{db}"
                        .format(user="swapnil",
                                pw="swapnil123",
                                db="mysql"))
 
-    parquet_df.to_sql('parquet_table',engine, if_exists = 'replace', chunksize = 1000)
+    parquet_df.to_sql('parquet_table',engine, if_exists = 'replace', chunksize = 1000)'''
     return parquet_df
 
 ####### Objective 3 - Casting and Masking #######################
